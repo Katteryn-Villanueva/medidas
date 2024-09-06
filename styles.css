@@ -2,7 +2,7 @@
     font-size: 30px;
 } */
 
-.padre{
+/* .padre{
     font-size: 10px;
 }
 
@@ -24,7 +24,7 @@
 
 .caja h3{
     font-size: 5em;
-}
+} */
 
 /* .caja{
     font-size: 35px;
@@ -36,3 +36,39 @@
     background-color: aquamarine;
     border: 1px solid black;
 } */
+
+html{
+    font-size: 10px;
+}
+
+.caja{
+    font-size: 2rem;
+    width: 25rem;
+    height: 25rem;
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    /* body{
+        background-color: blanchedalmond;
+    } */
+    /* html{
+        font-size: 15px;
+    } */
+    :root{
+        font-size: 15px;
+    }
+}
+@media (max-width: 528) {
+    :root{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 368px) {
+    :root{
+        font-size: 9px;
+    }
+}
