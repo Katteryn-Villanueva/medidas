@@ -1,4 +1,16 @@
+body{
+    font-size: 30px;
+}
+
 .caja{
+    width: 13em;
+    height: 13em;
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+/* .caja{
     font-size: 35px;
     width: 300px;
     height: 300px;
@@ -7,4 +19,4 @@
     text-align: center;
     background-color: aquamarine;
     border: 1px solid black;
-}
+} */
